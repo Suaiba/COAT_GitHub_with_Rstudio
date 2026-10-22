@@ -91,7 +91,7 @@ This creates the repository on GitHub, adds it as the remote and pushes your pro
 
 ## Everyday workflow
 
-Use the RStudio **Git** pane:
+Use the RStudio **Git** panel:
 
 1. **Pull** to get the latest changes (especially when collaborating)
 2. Edit your files
@@ -102,9 +102,9 @@ Commits are saved locally until you push them.
 
 ## Troubleshooting
 
-- **No Git pane:** check Git is installed, the project is open via its `.Rproj` file, `use_git()` has been run, and restart RStudio.
+- **No Git panel:** check Git is installed, the project is open via its `.Rproj` file, `use_git()` has been run, and restart RStudio.
 - **Authentication fails:** run `gitcreds::gitcreds_set()` again, or revoke the token and create a new one.
-- **File missing from the Git pane:** check it is saved in the project folder and not listed in `.gitignore`.
+- **File missing from the Git panel:** check it is saved in the project folder and not listed in `.gitignore`.
 - **Push rejected:** pull first, resolve any conflicts, commit, then push again. Avoid force-pushing.
 - **Token committed by accident:** revoke it on GitHub immediately, create a new one and remove it from your files. Adding it to `.gitignore` afterwards does not make it safe.
 
