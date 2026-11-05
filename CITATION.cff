@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Git and GitHub setup for RStudio"
+abstract: >-
+  Small R scripts and a guide for configuring Git, connecting RStudio to
+  GitHub, and pushing an RStudio Project to a new GitHub repository.
+  Aimed at people new to version control.
+type: software
+authors:
+  - family-names: "Surname"
+    given-names: "Your Name"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    # email: "your-email@example.com"
+version: 1.0.0
+date-released: "2026-11-05"
+license: MIT
+repository-code: "https://github.com/your-username/your-repository"
+keywords:
+  - R
+  - RStudio
+  - Git
+  - GitHub
+  - version control
+  - usethis
+references:
+  - type: blog
+    title: "How to Use Git/GitHub with R"
+    authors:
+      - name: "R for the Rest of Us"
+    year: 2021
+    url: "https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r"
