@@ -4,6 +4,21 @@ This repository contains small R scripts that will help configure Git, connect R
 
 The workflow follows [How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r) by R for the Rest of Us. See that article for screenshots and a fuller explanation of each step.
 
+## License
+
+This project is released under the [MIT License](LICENSE).
+
+## Citation
+
+If you use this repository, please cite it. GitHub's **Cite this repository** button (in the sidebar) uses the metadata in [`CITATION.cff`](CITATION.cff) and can export BibTeX or APA. In R, you can also run:
+
+```r
+citation_file <- "CITATION.cff"  # path to the file in this repository
+cffr::cff_read(citation_file)    # requires install.packages("cffr")
+```
+
+The workflow itself is based on [How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r) by R for the Rest of Us, which is also listed as a reference in `CITATION.cff`.
+
 > **Git** is the version-control system that runs locally on your computer. **GitHub** is the online service that hosts Git repositories for backup, sharing and collaboration.
 
 ## Repository contents
